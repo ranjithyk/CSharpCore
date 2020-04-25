@@ -4,16 +4,19 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Ranjith</Authors>
-    <RepositoryUrl>https://github.com/ranjithyk/CSharpCore</RepositoryUrl>
+    <RepositoryUrl>https://github.com/ranjithyk/CSharpCore.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageIcon>icon.png</PackageIcon>
     <PackageIconUrl />
     <PackageProjectUrl>https://github.com/ranjithyk/CSharpCore/blob/master/README.md</PackageProjectUrl>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
-    <Description>A library provides usefull Extensios, Helpers and Utilities</Description>
+    <Description>A library provides usefull Extensions, Helpers and Utilities</Description>
     <Copyright>Copyright (c) 2020 Ranjith</Copyright>
     <NeutralLanguage />
+    <Company>Ranjith</Company>
+    <PackageTags>first-major</PackageTags>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -29,6 +32,9 @@
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
+    <Content Include="Asset\README.md">
+      <Pack>true</Pack>
+      <PackagePath></PackagePath>
+    </Content>
   </ItemGroup>
-
 </Project>
