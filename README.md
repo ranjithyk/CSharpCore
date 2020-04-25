@@ -1,2 +1,2 @@
 # CSharpCore
-A library provides usefull Extensio, Helpers and Utilities
+A library provides usefull Extensios, Helpers and Utilities
